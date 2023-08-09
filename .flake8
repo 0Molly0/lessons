@@ -1,0 +1,15 @@
+[flake8]
+max-line-length = 120
+extend-ignore = E203
+exclude =
+  # Standard linting exemptions.
+  __pycache__,
+  .git,
+  *.pyc,
+  conf.py
+  venv
+#per-file-ignores =
+#  trash.py:E501
+#    isort/__init__.py:F401
+#    isort/stdlibs/__init__.py:F401
+#    tests/unit/example_crlf_file.py:F401
