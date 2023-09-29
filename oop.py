@@ -53,7 +53,7 @@ class SportTeam:
     def __init__(self, name: str, month_salary_one_person: int = 1000):
         self.name = name
         self.date = datetime.now()
-        self.players: list[Human] = []
+        self.players: list[Player] = []
         self.__money = 0
         self.month_salary_one_person = month_salary_one_person
 
