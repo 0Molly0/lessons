@@ -1,0 +1,8 @@
+{
+    "key": "my name",
+    "another_key": [
+        55,
+        "I am fine"
+    ],
+    "more_key": true
+}
